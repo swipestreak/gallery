@@ -13,9 +13,6 @@
                 var galleryImage = $('#swipeStreakGalleryImage').data('imagezoom');
                 galleryImage.changeImage(el.find('img').attr('src'), el.find('img').data('largeimg'));
             },
-            select: function(el, pos) {
-
-            },
             onReady: function () {
 
                 $('#swipeStreakGalleryImage').ImageZoom({
@@ -65,5 +62,5 @@
 
         });
 
-    }, 500);
+    }, 1000);
 })(jQuery);
