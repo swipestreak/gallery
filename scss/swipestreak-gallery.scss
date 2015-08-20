@@ -1,0 +1,19 @@
+.swipestreak-gallery {
+    float: right;
+    height: 100%;
+    max-width: 50%;
+
+    .ssg-main-image {
+        width: 80%;
+        float: left;
+    }
+    .ssg-carousel {
+        width: 20%;
+        float: right;
+        height: 100%;
+
+        .ssg-thumbs {
+
+        }
+    }
+}

@@ -1,0 +1,15 @@
+---
+Name: swipestreak-gallery-config
+After:
+  - '#swipestreak-config'
+---
+Product:
+  extensions:
+    - StreakGallery_PageExtension
+Product_Controller:
+  extensions:
+    - StreakGallery_PageControllerExtension
+StreakGallery_PageExtension:
+  streak_gallery_image_sources:
+    - StreakImages
+    - Variations.StreakImages

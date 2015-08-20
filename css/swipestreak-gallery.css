@@ -1,0 +1,17 @@
+/* line 1, ../scss/swipestreak-gallery.scss */
+.swipestreak-gallery {
+  float: right;
+  height: 100%;
+  max-width: 50%;
+}
+/* line 6, ../scss/swipestreak-gallery.scss */
+.swipestreak-gallery .ssg-main-image {
+  width: 80%;
+  float: left;
+}
+/* line 10, ../scss/swipestreak-gallery.scss */
+.swipestreak-gallery .ssg-carousel {
+  width: 20%;
+  float: right;
+  height: 100%;
+}
